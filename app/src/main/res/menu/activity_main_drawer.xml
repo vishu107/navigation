@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="none">
+        <item
+            android:title="Register"
+            android:icon="@drawable/ic_baseline_temple_hindu_24"
+            android:id="@+id/menu_register"
+            />
+        <item
+            android:title="Login"
+            android:icon="@drawable/ic_baseline_temple_hindu_24"
+            android:id="@+id/menu_login"/>
+    </group>
+    <item android:title="Explore">
+        <menu>
+            <group android:checkableBehavior="none">
+
+                <item
+                    android:title="Internships"
+                    android:icon="@drawable/ic_baseline_temple_hindu_24"
+                    android:id="@+id/menu_internship"
+                    />
+                <item
+                    android:title="Jobs"
+                    android:icon="@drawable/ic_baseline_temple_hindu_24"
+                    android:id="@+id/menu_jobs" />
+                <item
+                    android:title="Course"
+                    android:icon="@drawable/ic_baseline_temple_hindu_24"
+                    android:id="@+id/menu_course" />
+                <item
+                    android:title="Placement Guarantee Courses"
+                    android:icon="@drawable/ic_baseline_temple_hindu_24"
+                    android:id="@+id/menu_placement" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Help &amp; Support">
+    <menu>
+        <group android:checkableBehavior="none">
+
+            <item
+                android:title="Help Center"
+                android:icon="@drawable/ic_baseline_temple_hindu_24"
+                android:id="@+id/menu_help"
+                />
+            <item
+                android:title="Report a Complaint"
+                android:icon="@drawable/ic_baseline_temple_hindu_24"
+                android:id="@+id/menu_report" />
+            <item
+                android:title="More"
+                android:icon="@drawable/ic_baseline_temple_hindu_24"
+                android:id="@+id/menu_more"
+                />
+
+        </group>
+    </menu>
+    </item>
+</menu>
